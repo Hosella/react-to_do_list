@@ -1,0 +1,21 @@
+.ToDoItem{
+  box-sizing: border-box;
+  height: 200px;
+  width: 220px;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  &:hover {
+    position: relative;
+    top: -30px;
+    border: 2px solid;
+  }
+
+  &__title {
+    font-weight: bold;
+  }
+}

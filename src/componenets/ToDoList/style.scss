@@ -1,0 +1,14 @@
+.ToDoList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: center;
+
+  &__title {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-style: italic;
+  }
+}
